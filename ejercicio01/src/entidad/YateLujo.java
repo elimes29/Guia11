@@ -86,7 +86,8 @@ public class YateLujo extends BarcoMotor {
     
     public Float moduloYate(YateLujo yl){
         float aux = super.moduloBarcoMotor(yl);
-        aux = aux + potenciaCV+ (float)numCamarotes;
+        aux = aux + (float)numCamarotes;
+        System.out.println("Modulo del yate" + aux);
        return aux; 
     }
     

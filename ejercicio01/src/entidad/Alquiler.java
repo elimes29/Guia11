@@ -141,16 +141,22 @@ public class Alquiler {
                 v.crearVelero(v);
                 System.out.println(v);
                 mod = v.moduloVelero(v);
+                break;
             case 3:
                 BarcoMotor bm = new BarcoMotor();
                 bm.crearBarcoMotor(bm);
                 System.out.println(bm);
                 mod = bm.moduloBarcoMotor(bm);
+                break;
             case 4:
                 YateLujo yl = new YateLujo();
                 yl.crearYate(yl);
                 System.out.println(yl);
                 mod = yl.moduloYate(yl);
+                break;
+            default:
+                System.out.println("Error de tipo de barco");
+                        
         }
         
         float precioAlquiler = (float)diasEntre*mod;

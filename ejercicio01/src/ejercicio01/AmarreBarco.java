@@ -25,7 +25,12 @@ precio final de su alquiler.
 package ejercicio01;
 
 import entidad.Alquiler;
-
+import entidad.Barco;
+import entidad.BarcoMotor;
+import entidad.Velero;
+import entidad.YateLujo;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
 /**
