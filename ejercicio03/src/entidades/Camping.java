@@ -70,7 +70,7 @@ public final class Camping extends ExtraHotel {
         System.out.println("Ingrese la cantidad de baños del Camping");
         c.setCantBanosDisp(leer.nextInt());
         
-        System.out.println("¿El Campin cuenta con restaurante? (S/N)");
+        System.out.println("¿El Camping cuenta con restaurante? (S/N)");
         String aux = leer.next();
         if (aux.equalsIgnoreCase("S")){
             c.setRestautante(true);

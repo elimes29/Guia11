@@ -79,8 +79,9 @@ public class TurismoApp {
 
         ArrayList<Alojamiento> lista = new ArrayList<>();
 
-        boolean band = true;
-        /* Comentando para crear base de datos en main sin paso por pantalla
+        //boolean band = true;
+        
+        //Comentando para crear base de datos en main sin paso por pantalla
         // Creando Base de datos de alojamientos
         boolean band = true;
         int auxAloja;
@@ -129,8 +130,8 @@ public class TurismoApp {
 
         }
         
-         */
-
+         
+/*
         //Creando alojamientos en Main
         //Hoteles 5 estrellas
         Hotel5 h5_1 = new Hotel5();
@@ -255,6 +256,7 @@ public class TurismoApp {
         
         System.out.println("La lista tiene " + lista.size() + " alojamientos.");
         System.out.println("");
+*/
 
         /*
         Realizar un programa en el que se representen todas las relaciones
@@ -326,7 +328,7 @@ Realizar un sistema de consulta que le permite al usuario consultar por diferent
 
                 case 3:
                     boolean ban = true;
-                    System.out.println("*********Mostrando Campins con Restaurantes***************");
+                    System.out.println("*********Mostrando Campings con Restaurantes***************");
                     for (Alojamiento aloja : lista) {
                         if (aloja instanceof Camping) {
                             if (((Camping) aloja).getRestautante()) {
@@ -336,7 +338,7 @@ Realizar un sistema de consulta que le permite al usuario consultar por diferent
                         }
                     }
                     if (ban) {
-                        System.out.println("No hay Campins con Restaurantes");
+                        System.out.println("No hay Campings con Restaurantes");
                     }
 
                     System.out.println("");
